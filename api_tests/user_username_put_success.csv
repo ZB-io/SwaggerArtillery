@@ -1,0 +1,11 @@
+username,id,firstName,lastName,email,password,phone,userStatus
+user1,1,John,Doe,johndoe@example.com,password1,1234567890,1
+user2,2,Jane,Smith,janesmith@example.com,password2,0987654321,0
+user3,3,James,Brown,jamesbrown@example.com,password3,1122334455,1
+user4,4,Jennifer,Johnson,jenniferjohnson@example.com,password4,2233445566,0
+user5,5,Robert,Williams,robertwilliams@example.com,password5,3344556677,1
+user6,6,Linda,Jones,lindajones@example.com,password6,4455667788,0
+user7,7,Michael,Miller,michaelmiller@example.com,password7,5566778899,1
+user8,8,Elizabeth,Taylor,elizabethtaylor@example.com,password8,6677889900,0
+user9,9,David,Anderson,davidanderson@example.com,password9,7788990011,1
+user10,10,Mary,Thomas,marythomas@example.com,password10,8899001122,0

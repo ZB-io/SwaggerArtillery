@@ -1,0 +1,11 @@
+id,category.id,category.name,name,photoUrls,tags.id,tags.name,status
+1,10,Cats,Fluffy,http://photos.com/fluffy,100,Furry,available
+2,20,Dogs,Spot,http://photos.com/spot,200,Active,available
+3,30,Birds,Tweety,http://photos.com/tweety,300,Small,available
+4,40,Fish,Guppy,http://photos.com/guppy,400,Colorful,sold
+5,50,Reptiles,Slither,http://photos.com/slither,500,Long,available
+6,60,Rodents,Whiskers,http://photos.com/whiskers,600,Small,sold
+7,70,Amphibians,Jump,http://photos.com/jump,700,Jumpy,available
+8,80,Insects,Buzz,http://photos.com/buzz,800,Buzzy,sold
+9,90,Arachnids,Webby,http://photos.com/webby,900,Weaver,available
+10,100,Mammals,Roar,http://photos.com/roar,1000,Large,sold

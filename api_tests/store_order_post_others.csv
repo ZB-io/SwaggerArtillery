@@ -1,0 +1,11 @@
+id,petId,quantity,shipDate,status,complete
+1,1001,3,2022-01-01,placed,true
+2,1002,1,2022-01-05,delivered,true
+3,1003,2,2022-01-07,placed,false
+4,1004,5,2022-01-10,delivered,true
+5,1005,1,2022-01-15,placed,true
+6,1006,2,2022-01-20,delivered,false
+7,1007,3,2022-01-25,placed,true
+8,1008,1,2022-01-30,delivered,false
+9,1009,2,2022-01-31,placed,true
+10,1010,5,2022-02-01,delivered,true

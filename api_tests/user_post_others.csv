@@ -1,0 +1,11 @@
+username,firstName,lastName,email,password,phone,userStatus
+user1,John,Doe,johndoe@gmail.com,pass123,1234567890,1
+user2,Jane,Doe,janedoe@gmail.com,pass456,0987654321,0
+user3,James,Smith,jamessmith@gmail.com,pass789,1122334455,1
+user4,Emily,Johnson,emilyjohnson@gmail.com,pass321,2233445566,0
+user5,Michael,Brown,michaelbrown@gmail.com,pass654,3344556677,1
+user6,Sarah,Miller,sarahmiller@gmail.com,pass987,4455667788,0
+user7,David,Davis,daviddavis@gmail.com,pass231,5566778899,1
+user8,Emma,Jones,emmajones@gmail.com,pass564,6677889900,0
+user9,Robert,Moore,robertmoore@gmail.com,pass879,7788990011,1
+user10,Olivia,Taylor,oliviataylor@gmail.com,pass132,8899001122,0

@@ -1,0 +1,11 @@
+petId,additionalMetadata,file
+12345,Red Cat,/path/to/file1.jpg
+23456,Green Dog,/path/to/file2.png
+34567,Blue Bird,/path/to/file3.gif
+45678,Cute Hamster,/path/to/file4.jpeg
+56789,Happy Fish,/path/to/file5.bmp
+67890,Smart Parrot,/path/to/file6.tif
+78901,Furry Rabbit,/path/to/file7.svg
+89012,Sleepy Turtle,/path/to/file8.webp
+90123,Friendly Spider,/path/to/file9.ico
+10234,Angry Snake,/path/to/file10.png

@@ -1,0 +1,11 @@
+petId,categoryId,categoryName,name,photoUrls,tagsId,tagsName,status
+1,101,Cat,Felix,http://photos.cat.com/felix.jpg,201,Playful,Available
+2,102,Dog,Buddy,http://photos.dog.com/buddy.jpg,202,Active,Available
+3,103,Bird,Tweety,http://photos.bird.com/tweety.jpg,203,Cute,Sold
+4,104,Rabbit,Bugs,http://photos.rabbit.com/bugs.jpg,204,Friendly,Available
+5,105,Horse,Star,http://photos.horse.com/star.jpg,205,Strong,Available
+6,106,Fish,Nemo,http://photos.fish.com/nemo.jpg,206,Colorful,Sold
+7,107,Reptile,Spike,http://photos.reptile.com/spike.jpg,207,Scary,Available
+8,108,Rodent,Stuart,http://photos.rodent.com/stuart.jpg,208,Small,Available
+9,109,Insect,Buzz,http://photos.insect.com/buzz.jpg,209,Fast,Available
+10,110,Amphibian,Kermit,http://photos.amphibian.com/kermit.jpg,210,Green,Sold

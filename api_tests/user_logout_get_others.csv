@@ -1,0 +1,11 @@
+username,password
+john_doe123,secretpass
+jane_doe321,123456
+admin,admin
+test_user,testing123
+guest,guest123
+root,rootpass
+super_user,supersecretpass
+user123,password123
+anonymous,anonpass
+default_user,defaultpass

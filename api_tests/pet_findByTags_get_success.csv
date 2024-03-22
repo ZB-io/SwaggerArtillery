@@ -1,0 +1,11 @@
+id,category.id,category.name,name,photoUrls,tags.id,tags.name,status
+1,10,Category1,doggie1,photoUrl1,100,Tag1,available
+2,20,Category2,doggie2,photoUrl2,200,Tag2,sold
+3,30,Category3,doggie3,photoUrl3,300,Tag3,pending
+4,40,Category4,doggie4,photoUrl4,400,Tag4,available
+5,50,Category5,doggie5,photoUrl5,500,Tag5,sold
+6,60,Category6,doggie6,photoUrl6,600,Tag6,pending
+7,70,Category7,doggie7,photoUrl7,700,Tag7,available
+8,80,Category8,doggie8,photoUrl8,800,Tag8,sold
+9,90,Category9,doggie9,photoUrl9,900,Tag9,pending
+10,100,Category10,doggie10,photoUrl10,1000,Tag10,available
