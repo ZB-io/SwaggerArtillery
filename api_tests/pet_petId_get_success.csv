@@ -1,0 +1,11 @@
+petId,categoryId,categoryName,name,photoUrls,tagsId,tagsName,status
+1,101,Cat,Felix,http://photos.cat.com/felix.jpg,201,Playful,Available
+2,102,Dog,Buddy,http://photos.dog.com/buddy.jpg,202,Active,Available
+3,103,Bird,Tweety,http://photos.bird.com/tweety.jpg,203,Cute,Sold
+4,104,Reptile,Slither,http://photos.reptile.com/slither.jpg,204,Exotic,Available
+5,105,Fish,Guppy,http://photos.fish.com/guppy.jpg,205,Colorful,Sold
+6,106,Horse,Stallion,http://photos.horse.com/stallion.jpg,206,Strong,Available
+7,107,Rabbit,Bunny,http://photos.rabbit.com/bunny.jpg,207,Friendly,Sold
+8,108,Hamster,Hammy,http://photos.hamster.com/hammy.jpg,208,Small,Available
+9,109,Guinea Pig,Guinea,http://photos.guineapig.com/guinea.jpg,209,Quiet,Sold
+10,110,Parrot,Polly,http://photos.parrot.com/polly.jpg,210,Talkative,Available

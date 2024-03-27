@@ -1,0 +1,11 @@
+id,name,photoUrls,status
+1,John Doe,https://example.com/photo1.jpg,active
+2,Jane Doe,https://example.com/photo2.jpg,inactive
+3,James Smith,https://example.com/photo3.jpg,active
+4,Emily Jones,https://example.com/photo4.jpg,inactive
+5,Robert Brown,https://example.com/photo5.jpg,active
+6,Emma Davis,https://example.com/photo6.jpg,inactive
+7,William Johnson,https://example.com/photo7.jpg,active
+8,Sophia Miller,https://example.com/photo8.jpg,inactive
+9,Michael Wilson,https://example.com/photo9.jpg,active
+10,Olivia Moore,https://example.com/photo10.jpg,inactive

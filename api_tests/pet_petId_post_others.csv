@@ -1,0 +1,11 @@
+petId,name,status
+1,Bella,Available
+2,Max,Unavailable
+3,Lucy,Available
+4,Charlie,null
+5,Daisy,Unavailable
+6,Buddy,Available
+7,Molly,Unavailable
+8,Jack,Available
+9,Lola,Unavailable
+10,Rocky,null

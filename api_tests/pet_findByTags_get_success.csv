@@ -1,0 +1,11 @@
+id,category_id,category_name,name,photoUrls,tags_id,tags_name,status
+1,10,Animals,Bobby,https://example.com/photo1.jpg,100,Playful,available
+2,11,Birds,Sunny,https://example.com/photo2.jpg,101,Active,sold
+3,12,Fishes,Goldie,https://example.com/photo3.jpg,102,Calm,pending
+4,13,Reptiles,Cobra,https://example.com/photo4.jpg,103,Dangerous,sold
+5,14,Mammals,Lion,https://example.com/photo5.jpg,104,Fierce,available
+6,15,Amphibians,Frog,https://example.com/photo6.jpg,105,Jumping,pending
+7,16,Insects,Butterfly,https://example.com/photo7.jpg,106,Colorful,sold
+8,17,Animals,Tiger,https://example.com/photo8.jpg,107,Wild,available
+9,18,Birds,Eagle,https://example.com/photo9.jpg,108,Flying,sold
+10,19,Fishes,Shark,https://example.com/photo10.jpg,109,Swimming,pending
