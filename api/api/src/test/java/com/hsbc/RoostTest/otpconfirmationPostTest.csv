@@ -1,0 +1,11 @@
+Authorization^|^AdditionalCSVvaluInfo^|^x-fapi-customer-ip-address^|^x-fapi-auth-date^|^x-fapi-interaction-id^|^x-idempotency-key^|^mandateIdentification^|^otpIdentificationNumber^|^otpPassword^|^creditorAccount^|^bankCode^|^accountIdentification^|^currency^|^accountSchemeName^|^accountSubType^|^statusCode
+Auth1^|^LbGpjj8KaH5wrEfg^|^192.168.1.1^|^2022-02-20^|^FAPI1^|^Idemp1^|^Mandate1^|^OtpId1^|^OtpPass1^|^CredAcc1^|^001^|^AccId1^|^USD^|^BBAN^|^Current Account^|^201
+Auth2^|^LbGpjj8KaH5wrEfg^|^192.168.1.2^|^2022-02-21^|^FAPI2^|^Idemp2^|^Mandate2^|^OtpId2^|^OtpPass2^|^CredAcc2^|^002^|^AccId2^|^EUR^|^BBAN^|^Savings Account^|^400
+Auth3^|^LbGpjj8KaH5wrEfg^|^192.168.1.3^|^2022-02-22^|^FAPI3^|^Idemp3^|^Mandate3^|^OtpId3^|^OtpPass3^|^CredAcc3^|^003^|^AccId3^|^GBP^|^BBAN^|^Student Account^|^401
+Auth4^|^LbGpjj8KaH5wrEfg^|^192.168.1.4^|^2022-02-23^|^FAPI4^|^Idemp4^|^Mandate4^|^OtpId4^|^OtpPass4^|^CredAcc4^|^004^|^AccId4^|^JPY^|^BBAN^|^CACC^|^403
+Auth5^|^LbGpjj8KaH5wrEfg^|^192.168.1.5^|^2022-02-24^|^FAPI5^|^Idemp5^|^Mandate5^|^OtpId5^|^OtpPass5^|^CredAcc5^|^005^|^AccId5^|^INR^|^BBAN^|^CARD^|^404
+Auth6^|^LbGpjj8KaH5wrEfg^|^192.168.1.6^|^2022-02-25^|^FAPI6^|^Idemp6^|^Mandate6^|^OtpId6^|^OtpPass6^|^CredAcc6^|^006^|^AccId6^|^CNY^|^BBAN^|^CACC^|^405
+Auth7^|^LbGpjj8KaH5wrEfg^|^192.168.1.7^|^2022-02-26^|^FAPI7^|^Idemp7^|^Mandate7^|^OtpId7^|^OtpPass7^|^CredAcc7^|^007^|^AccId7^|^AUD^|^BBAN^|^DDA^|^406
+Auth8^|^LbGpjj8KaH5wrEfg^|^192.168.1.8^|^2022-02-27^|^FAPI8^|^Idemp8^|^Mandate8^|^OtpId8^|^OtpPass8^|^CredAcc8^|^008^|^AccId8^|^CAD^|^BBAN^|^CDA^|^415
+Auth9^|^LbGpjj8KaH5wrEfg^|^192.168.1.9^|^2022-02-28^|^FAPI9^|^Idemp9^|^Mandate9^|^OtpId9^|^OtpPass9^|^CredAcc9^|^009^|^AccId9^|^NZD^|^BBAN^|^ILA^|^500
+Auth10^|^LbGpjj8KaH5wrEfg^|^192.168.1.10^|^2022-02-29^|^FAPI10^|^Idemp10^|^Mandate10^|^OtpId10^|^OtpPass10^|^CredAcc10^|^010^|^AccId10^|^ZAR^|^BBAN^|^CCA^|^201
