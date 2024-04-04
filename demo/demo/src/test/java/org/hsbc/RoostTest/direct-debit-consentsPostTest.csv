@@ -1,0 +1,11 @@
+Authorization^|^AdditionalCSVvaluInfo^|^Content-Type^|^x-fapi-auth-date^|^x-fapi-customer-ip-address^|^x-fapi-interaction-id^|^Accept-Language^|^data^|^permissions^|^expirationDate^|^statusCode
+Bearer token_1^|^169.254.169.254^|^application/json^|^2022-03-01T12:00:00Z^|^192.168.0.1^|^interaction_id_1^|^en-HK^|^{"userId":"user1","userName":"User One"}^|^["read","write"]^|^2023-03-01T12:00:00Z^|^201
+Bearer token_2^|^169.254.169.254^|^application/json^|^2022-03-02T12:00:00Z^|^192.168.0.2^|^interaction_id_2^|^zh-CN^|^{"userId":"user2","userName":"User Two"}^|^["read"]^|^2023-03-02T12:00:00Z^|^400
+Bearer token_3^|^169.254.169.254^|^application/json^|^2022-03-03T12:00:00Z^|^192.168.0.3^|^interaction_id_3^|^zh-HK^|^{"userId":"user3","userName":"User Three"}^|^["write"]^|^2023-03-03T12:00:00Z^|^401
+Bearer token_4^|^169.254.169.254^|^application/json^|^2022-03-04T12:00:00Z^|^192.168.0.4^|^interaction_id_4^|^en-HK^|^{"userId":"user4","userName":"User Four"}^|^["read","write"]^|^2023-03-04T12:00:00Z^|^403
+Bearer token_5^|^169.254.169.254^|^application/json^|^2022-03-05T12:00:00Z^|^192.168.0.5^|^interaction_id_5^|^zh-CN^|^{"userId":"user5","userName":"User Five"}^|^["read"]^|^2023-03-05T12:00:00Z^|^405
+Bearer token_6^|^169.254.169.254^|^application/json^|^2022-03-06T12:00:00Z^|^192.168.0.6^|^interaction_id_6^|^zh-HK^|^{"userId":"user6","userName":"User Six"}^|^["write"]^|^2023-03-06T12:00:00Z^|^406
+Bearer token_7^|^169.254.169.254^|^application/json^|^2022-03-07T12:00:00Z^|^192.168.0.7^|^interaction_id_7^|^en-HK^|^{"userId":"user7","userName":"User Seven"}^|^["read","write"]^|^2023-03-07T12:00:00Z^|^415
+Bearer token_8^|^169.254.169.254^|^application/json^|^2022-03-08T12:00:00Z^|^192.168.0.8^|^interaction_id_8^|^zh-CN^|^{"userId":"user8","userName":"User Eight"}^|^["read"]^|^2023-03-08T12:00:00Z^|^429
+Bearer token_9^|^169.254.169.254^|^application/json^|^2022-03-09T12:00:00Z^|^192.168.0.9^|^interaction_id_9^|^zh-HK^|^{"userId":"user9","userName":"User Nine"}^|^["write"]^|^2023-03-09T12:00:00Z^|^500
+Bearer token_10^|^169.254.169.254^|^application/json^|^2022-03-10T12:00:00Z^|^192.168.0.10^|^interaction_id_10^|^en-HK^|^{"userId":"user10","userName":"User Ten"}^|^["read","write"]^|^2023-03-10T12:00:00Z^|^503
