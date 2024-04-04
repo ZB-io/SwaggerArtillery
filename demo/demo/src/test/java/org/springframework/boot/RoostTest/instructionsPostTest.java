@@ -51,6 +51,7 @@ public class instructionsPostTest {
     @Test  
     public void instructionsPost_Test() throws JSONException {
         this.setUp();
+        Integer testNumber = 1;
         for (Map<String, String> testData : envList) {
           RestAssured.baseURI = (testData.get("BASE_URL") != null && !testData.get("BASE_URL").isEmpty()) ? testData.get("BASE_URL"): "https://sandbox.ob.business.hsbc.com.hk/mock/open-banking/v1.0/direct-debit";  
   
@@ -80,6 +81,7 @@ public class instructionsPostTest {
               JsonPath response;
               String contentType = responseObj.getContentType();
 
+              System.out.printf("Test Case %d: instructionsPost_Test\n", testNumber++);
               if (testData.get("statusCode") != null) {
                 MatcherAssert.assertThat(responseObj.statusCode(),
                     equalTo(Integer.parseInt(testData.get("statusCode"))));
@@ -134,7 +136,6 @@ public class instructionsPostTest {
               if (response.get("paymentInformationStatus") != null) {  
                 MatcherAssert.assertThat(response.get("paymentInformationStatus"), instanceOf(String.class));  
                 MatcherAssert.assertThat(response.getString("paymentInformationStatus"), anyOf(equalTo("ACSC"), equalTo("RJCT"), equalTo("ACCP"), equalTo("ACSP")));
-  
                 MatcherAssert.assertThat(response.getString("paymentInformationStatus").length(), lessThanOrEqualTo(4));
   
           }
@@ -504,6 +505,7 @@ if (responseObj.statusCode() == 500) {
           }
 				}
   
+            System.out.println("Response Body:\n" + responseObj.asPrettyString());
             }  
     }
 }
