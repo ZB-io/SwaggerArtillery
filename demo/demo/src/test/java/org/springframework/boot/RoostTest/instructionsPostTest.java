@@ -82,6 +82,8 @@ public class instructionsPostTest {
               String contentType = responseObj.getContentType();
 
               System.out.printf("Test Case %d: instructionsPost_Test\n", testNumber++);
+              System.out.println("Request: POST /instructions");
+              System.out.println("Status Code: " + responseObj.statusCode());
               if (testData.get("statusCode") != null) {
                 MatcherAssert.assertThat(responseObj.statusCode(),
                     equalTo(Integer.parseInt(testData.get("statusCode"))));
