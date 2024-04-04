@@ -15,10 +15,9 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -41,7 +40,7 @@ public class statusAuthorisationsPostTest {
     List<Map<String, String>> envList = new ArrayList<>();
 
 
-    @Before
+    @BeforeEach
     public void setUp() {
       TestdataLoader dataloader = new TestdataLoader();
       String[] envVarsList = {"version"};
@@ -53,7 +52,7 @@ public class statusAuthorisationsPostTest {
     public void statusAuthorisationsPost_Test() throws JSONException {
         this.setUp();
         for (Map<String, String> testData : envList) {
-          RestAssured.baseURI = (testData.get("BASE_URL") != null && !testData.get("BASE_URL").isEmpty()) ? testData.get("BASE_URL"): "https://hsbcdeveloperportalpreprod.digitalapicraft.com:8085/https://sandbox.ob.business.hsbc.com.hk/mock/open-banking/v1.0/direct-debit";  
+          RestAssured.baseURI = (testData.get("BASE_URL") != null && !testData.get("BASE_URL").isEmpty()) ? testData.get("BASE_URL"): "https://sandbox.ob.business.hsbc.com.hk/mock/open-banking/v1.0/direct-debit";  
   
                 Response responseObj = given()
 				.header("Authorization", testData.get("Authorization") != null ? testData.get("Authorization") : "")
