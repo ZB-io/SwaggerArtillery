@@ -1,0 +1,11 @@
+Authorization^|^AdditionalCSVvaluInfo^|^Content-Type^|^x-fapi-auth-date^|^x-fapi-customer-ip-address^|^x-fapi-interaction-id^|^Accept-Language^|^data^|^permissions^|^expirationDate^|^statusCode
+Bearer token_1^|^169.254.169.254^|^application/json^|^2022-03-01^|^192.168.1.1^|^Interaction_1^|^en-HK^|^Object_1^|^['read']^|^2022-12-31^|^201
+Bearer token_2^|^169.254.169.254^|^application/json^|^2022-03-02^|^192.168.1.2^|^Interaction_2^|^zh-HK^|^Object_2^|^['write']^|^2023-01-01^|^400
+Bearer token_3^|^169.254.169.254^|^application/json^|^2022-03-03^|^192.168.1.3^|^Interaction_3^|^zh-CN^|^Object_3^|^['read', 'write']^|^2023-02-01^|^401
+Bearer token_4^|^169.254.169.254^|^application/json^|^2022-03-04^|^192.168.1.4^|^Interaction_4^|^en-HK^|^Object_4^|^['read']^|^2023-03-01^|^403
+Bearer token_5^|^169.254.169.254^|^application/json^|^2022-03-05^|^192.168.1.5^|^Interaction_5^|^zh-HK^|^Object_5^|^['write']^|^2023-04-01^|^405
+Bearer token_6^|^169.254.169.254^|^application/json^|^2022-03-06^|^192.168.1.6^|^Interaction_6^|^zh-CN^|^Object_6^|^['read', 'write']^|^2023-05-01^|^406
+Bearer token_7^|^169.254.169.254^|^application/json^|^2022-03-07^|^192.168.1.7^|^Interaction_7^|^en-HK^|^Object_7^|^['read']^|^2023-06-01^|^415
+Bearer token_8^|^169.254.169.254^|^application/json^|^2022-03-08^|^192.168.1.8^|^Interaction_8^|^zh-HK^|^Object_8^|^['write']^|^2023-07-01^|^429
+Bearer token_9^|^169.254.169.254^|^application/json^|^2022-03-09^|^192.168.1.9^|^Interaction_9^|^zh-CN^|^Object_9^|^['read', 'write']^|^2023-08-01^|^500
+Bearer token_10^|^169.254.169.254^|^application/json^|^2022-03-10^|^192.168.1.10^|^Interaction_10^|^en-HK^|^Object_10^|^['read']^|^2023-09-01^|^503
