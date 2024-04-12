@@ -1,0 +1,11 @@
+operation_id^|^statusCode^|^statusCode_description
+op123^|^204^|^Job deleted ok
+op456^|^400^|^User error
+op789^|^404^|^Not found
+op321^|^500^|^Internal error
+op654^|^204^|^Job deleted ok
+op987^|^400^|^User error
+op1234^|^404^|^Not found
+op5678^|^500^|^Internal error
+op9101^|^204^|^Job deleted ok
+op1213^|^400^|^User error

@@ -1,0 +1,11 @@
+module_from^|^module_to^|^purge^|^parameters
+Module1^|^Module2^|^True^|^param1,param2,param3
+Module3^|^Module4^|^False^|^param4,param5,param6
+Module2^|^Module1^|^True^|^param7,param8,param9
+Module4^|^Module3^|^False^|^param10,param11,param12
+Module1^|^Module3^|^True^|^param13,param14,param15
+Module2^|^Module4^|^False^|^param16,param17,param18
+Module3^|^Module1^|^True^|^param19,param20,param21
+Module4^|^Module2^|^False^|^param22,param23,param24
+Module1^|^Module4^|^True^|^param25,param26,param27
+Module3^|^Module2^|^False^|^param28,param29,param30
