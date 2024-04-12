@@ -1,0 +1,11 @@
+module_from^|^module_to^|^purge^|^parameters
+UserModule^|^ProfileModule^|^True^|^['param1', 'param2', 'param3']
+AuthModule^|^UserModule^|^False^|^['param4', 'param5']
+ProfileModule^|^PaymentModule^|^True^|^['param6', 'param7', 'param8']
+PaymentModule^|^OrderModule^|^False^|^['param9', 'param10']
+OrderModule^|^ShippingModule^|^True^|^['param11', 'param12']
+ShippingModule^|^TrackingModule^|^False^|^['param13', 'param14']
+TrackingModule^|^CustomerServiceModule^|^True^|^['param15', 'param16']
+CustomerServiceModule^|^FeedbackModule^|^False^|^['param17', 'param18']
+FeedbackModule^|^MarketingModule^|^True^|^['param19', 'param20']
+MarketingModule^|^AnalyticsModule^|^False^|^['param21', 'param22']
