@@ -1,0 +1,146 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Tenant API",
+    "version": "v2"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8081/{version}",
+      "variables": {
+        "version": {
+          "default": ""
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/_/tenant": {
+      "post": {
+        "description": "Create tenant job (create, upgrade, delete) An implementation may choose to return 204 if the job is completed by the initial operation; or it may return 201 and start the operation in the background.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "example": "../examples/tenantAttributes.sample"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "Job completed"
+          },
+          "201": {
+            "description": "Tenant job created",
+            "headers": {
+              "Location": {
+                "description": "URI of the job",
+                "required": true,
+                "schema": {
+                  "description": "URI of the job",
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "example": "../examples/tenantJob.sample"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad user request",
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_/tenant/{operation_id}": {
+      "parameters": [
+        {
+          "name": "operation_id",
+          "required": true,
+          "in": "path",
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "get": {
+        "description": "Get tenant job",
+        "parameters": [
+          {
+            "name": "wait",
+            "description": "wait until job change, but no longer than the wait time - in milliseconds. 0 means \"no wait\" and is behavior if omitted.",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "description": "wait until job change, but no longer than the wait time - in milliseconds. 0 means \"no wait\" and is behavior if omitted.",
+              "default": 0,
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Tenant job returned OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "example": "../examples/tenantJob.sample"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "User error",
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "description": "Delete job",
+        "responses": {
+          "204": {
+            "description": "Job deleted ok"
+          },
+          "400": {
+            "description": "User error",
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "text/plain": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
