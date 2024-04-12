@@ -1,0 +1,11 @@
+operation_id^|^wait^|^statusCode^|^statusCode_description
+op_123^|^20^|^200^|^Tenant job returned OK
+op_456^|^30^|^400^|^User error
+op_789^|^10^|^404^|^Not found
+op_321^|^40^|^500^|^Internal error
+op_654^|^25^|^200^|^Tenant job returned OK
+op_987^|^35^|^400^|^User error
+op_1234^|^15^|^404^|^Not found
+op_5678^|^45^|^500^|^Internal error
+op_9012^|^20^|^200^|^Tenant job returned OK
+op_3456^|^30^|^400^|^User error

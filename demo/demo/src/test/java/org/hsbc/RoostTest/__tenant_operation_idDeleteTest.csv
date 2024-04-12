@@ -1,0 +1,11 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://api.example.com/users^|^Authorization: Bearer abc123^|^{}^|^200^|^{"message": "Success"}
+POST^|^https://api.example.com/users^|^Authorization: Bearer def456^|^{"username": "johndoe", "email": "johndoe@example.com"}^|^201^|^{"message": "User created successfully"}
+PUT^|^https://api.example.com/users/johndoe^|^Authorization: Bearer ghi789^|^{"email": "john.doe@example.com"}^|^200^|^{"message": "User updated successfully"}
+DELETE^|^https://api.example.com/users/johndoe^|^Authorization: Bearer jkl012^|^{}^|^204^|^{"message": "User deleted successfully"}
+GET^|^https://api.example.com/users/janedoe^|^Authorization: Bearer mno345^|^{}^|^404^|^{"message": "User not found"}
+POST^|^https://api.example.com/users^|^Authorization: Bearer pqr678^|^{"username": "janedoe", "email": "janedoe@example.com"}^|^201^|^{"message": "User created successfully"}
+PUT^|^https://api.example.com/users/janedoe^|^Authorization: Bearer stu901^|^{"email": "jane.doe@example.com"}^|^200^|^{"message": "User updated successfully"}
+DELETE^|^https://api.example.com/users/janedoe^|^Authorization: Bearer vwx234^|^{}^|^204^|^{"message": "User deleted successfully"}
+GET^|^https://api.example.com/users/doesnotexist^|^Authorization: Bearer yza567^|^{}^|^404^|^{"message": "User not found"}
+POST^|^https://api.example.com/users^|^Authorization: Bearer bcd890^|^{"username": "doesnotexist", "email": "doesnotexist@example.com"}^|^400^|^{"message": "Invalid user data"}

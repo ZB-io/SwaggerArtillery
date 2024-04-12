@@ -1,0 +1,11 @@
+module_from^|^module_to^|^purge^|^parameters^|^statusCode
+Module1^|^Module2^|^True^|^Param1,Param2,Param3^|^201
+Module3^|^Module4^|^False^|^Param4,Param5,Param6^|^204
+Module5^|^Module6^|^True^|^Param7,Param8,Param9^|^400
+Module7^|^Module8^|^False^|^Param10,Param11,Param12^|^422
+Module9^|^Module10^|^True^|^Param13,Param14,Param15^|^500
+Module11^|^Module12^|^False^|^Param16,Param17,Param18^|^201
+Module13^|^Module14^|^True^|^Param19,Param20,Param21^|^204
+Module15^|^Module16^|^False^|^Param22,Param23,Param24^|^400
+Module17^|^Module18^|^True^|^Param25,Param26,Param27^|^422
+Module19^|^Module20^|^False^|^Param28,Param29,Param30^|^500
