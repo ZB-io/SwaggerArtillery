@@ -1,0 +1,11 @@
+operation_id^|^id^|^tenant^|^module_from^|^module_to^|^purge^|^key^|^value^|^complete^|^error^|^messages^|^wait
+1^|^53bd40c8-a420-4ddb-b829-4496ff5e5be4^|^diku^|^mod-sample-1.0.2^|^mod-sample-1.3.1^|^false^|^loadReference^|^true^|^true^|^SQL error^|^first error^|^0
+2^|^63bd40c8-a420-4ddb-b829-4496ff5e5be5^|^diku^|^mod-sample-1.0.3^|^mod-sample-1.3.2^|^true^|^loadSample^|^false^|^false^|^SQL error^|^second error^|^1000
+3^|^73bd40c8-a420-4ddb-b829-4496ff5e5be6^|^diku^|^mod-sample-1.0.4^|^mod-sample-1.3.3^|^false^|^loadData^|^true^|^true^|^SQL error^|^third error^|^2000
+4^|^83bd40c8-a420-4ddb-b829-4496ff5e5be7^|^diku^|^mod-sample-1.0.5^|^mod-sample-1.3.4^|^true^|^loadReference^|^false^|^false^|^SQL error^|^fourth error^|^3000
+5^|^93bd40c8-a420-4ddb-b829-4496ff5e5be8^|^diku^|^mod-sample-1.0.6^|^mod-sample-1.3.5^|^false^|^loadSample^|^true^|^true^|^SQL error^|^fifth error^|^4000
+6^|^a3bd40c8-a420-4ddb-b829-4496ff5e5be9^|^diku^|^mod-sample-1.0.7^|^mod-sample-1.3.6^|^true^|^loadData^|^false^|^false^|^SQL error^|^sixth error^|^5000
+7^|^b3bd40c8-a420-4ddb-b829-4496ff5e5bea^|^diku^|^mod-sample-1.0.8^|^mod-sample-1.3.7^|^false^|^loadReference^|^true^|^true^|^SQL error^|^seventh error^|^6000
+8^|^c3bd40c8-a420-4ddb-b829-4496ff5e5beb^|^diku^|^mod-sample-1.0.9^|^mod-sample-1.3.8^|^true^|^loadSample^|^false^|^false^|^SQL error^|^eighth error^|^7000
+9^|^d3bd40c8-a420-4ddb-b829-4496ff5e5bec^|^diku^|^mod-sample-1.0.10^|^mod-sample-1.3.9^|^false^|^loadData^|^true^|^true^|^SQL error^|^ninth error^|^8000
+10^|^e3bd40c8-a420-4ddb-b829-4496ff5e5bed^|^diku^|^mod-sample-1.0.11^|^mod-sample-1.3.10^|^true^|^loadReference^|^false^|^false^|^SQL error^|^tenth error^|^9000

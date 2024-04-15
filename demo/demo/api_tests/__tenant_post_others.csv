@@ -1,0 +1,11 @@
+module_from^|^module_to^|^purge^|^parameters
+mod-sample-1.3.1^|^mod-sample-1.0.2^|^true^|^key:loadReference,value:true
+mod-sample-1.2.1^|^mod-sample-1.3.2^|^false^|^key:loadReference,value:false
+mod-sample-1.1.1^|^mod-sample-1.2.2^|^true^|^key:loadReference,value:true
+mod-sample-1.0.1^|^mod-sample-1.1.2^|^false^|^key:loadReference,value:false
+mod-sample-1.4.1^|^mod-sample-1.0.2^|^true^|^key:loadReference,value:true
+mod-sample-1.5.1^|^mod-sample-1.3.2^|^false^|^key:loadReference,value:false
+mod-sample-1.6.1^|^mod-sample-1.2.2^|^true^|^key:loadReference,value:true
+mod-sample-1.7.1^|^mod-sample-1.1.2^|^false^|^key:loadReference,value:false
+mod-sample-1.8.1^|^mod-sample-1.0.2^|^true^|^key:loadReference,value:true
+mod-sample-1.9.1^|^mod-sample-1.3.2^|^false^|^key:loadReference,value:false

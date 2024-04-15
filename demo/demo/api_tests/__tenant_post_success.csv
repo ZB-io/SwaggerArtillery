@@ -1,0 +1,11 @@
+module_to^|^module_from^|^parameters
+mod-sample-1.3.1^|^mod-sample-1.0.2^|^loadReference:true
+mod-sample-2.0.1^|^mod-sample-1.5.4^|^autoUpdate:false
+mod-sample-2.3.2^|^mod-sample-1.8.3^|^debugMode:true
+mod-sample-3.0.0^|^mod-sample-2.5.5^|^enableLogs:false
+mod-sample-3.1.1^|^mod-sample-2.8.4^|^maintainBackup:true
+mod-sample-4.0.2^|^mod-sample-3.2.6^|^autoClean:true
+mod-sample-4.3.3^|^mod-sample-3.5.7^|^testMode:false
+mod-sample-5.0.1^|^mod-sample-4.2.8^|^verboseOutput:true
+mod-sample-5.2.2^|^mod-sample-4.5.9^|^safeMode:false
+mod-sample-6.0.3^|^mod-sample-5.1.0^|^enableNotifications:true
