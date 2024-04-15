@@ -1,0 +1,6 @@
+version,module_from,module_to,purge,parameters,statusCode,scenario
+1.1,"mod-sample-1.0.2","mod-sample-1.3.1",true,"[{"key": "loadReference","value": "true"}]",201,Tenant job created
+1.2,"mod-sample-1.0.3","mod-sample-1.3.2",false,"[{"key": "loadSample","value": "false"}]",204,Job completed
+1.3,"mod-sample-1.0.4","mod-sample-1.3.3",true,"[{"key": "loadReference","value": "true"}]",400,Bad user request
+1.4,"mod-sample-1.0.5","mod-sample-1.3.4",false,"[{"key": "loadSample","value": "false"}]",422,Validation errors
+1.5,"mod-sample-1.0.6","mod-sample-1.3.5",true,"[{"key": "loadReference","value": "true"}]",500,Internal error
