@@ -1,0 +1,969 @@
+{
+  "item": [
+    {
+      "id": "ca846387-d6ff-4e1d-a95f-8f829c06fedd",
+      "name": "_/tenant",
+      "item": [
+        {
+          "id": "c2e4eca5-242a-4ac0-af63-f843e55ac266",
+          "name": "Create tenant job (create, upgrade, delete) An implementation may choose to return 204 if the job is completed by the initial operation; or it may return 201 and start the operation in the background.",
+          "request": {
+            "name": "Create tenant job (create, upgrade, delete) An implementation may choose to return 204 if the job is completed by the initial operation; or it may return 201 and start the operation in the background.",
+            "description": {
+              "content": "Create tenant job (create, upgrade, delete) An implementation may choose to return 204 if the job is completed by the initial operation; or it may return 201 and start the operation in the background.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "_",
+                "tenant"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{version}}",
+                  "key": "version"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"module_from\": \"{{module_from}}\",\n    \"module_to\": \"{{module_to}}\",\n    \"purge\": \"{{purge}}\",\n    \"parameters\": \"{{parameters}}\",\n    \"ex_89\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "f0bdcd23-aac5-4e37-a2e3-ee05565c36e1",
+              "name": "Tenant job created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "_",
+                    "tenant"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{version}}",
+                      "key": "version"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"value\": {\n        \"module_to\": \"{{module_to}}\",\n        \"module_from\": \"{{module_from}}\",\n        \"parameters\": \"{{parameters}}\"\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "disabled": false,
+                  "description": "(Required) URI of the job",
+                  "key": "Location",
+                  "value": "{{Location}}"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"value\": {\n    \"tenant\": \"diku\",\n    \"tenantAttributes\": {\n      \"module_to\": \"mod-sample-1.3.1\",\n      \"module_from\": \"mod-sample-1.0.2\",\n      \"parameters\": [\n        {\n          \"key\": \"loadReference\",\n          \"value\": \"true\"\n        }\n      ]\n    },\n    \"complete\": true,\n    \"error\": \"SQL error\",\n    \"messages\": [\n      \"first error\",\n      \"second error\"\n    ]\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "eb863ced-94d5-4357-830c-1f97d26412d2",
+              "name": "Job completed",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "_",
+                    "tenant"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{version}}",
+                      "key": "version"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"value\": {\n        \"module_to\": \"{{module_to}}\",\n        \"module_from\": \"{{module_from}}\",\n        \"parameters\": \"{{parameters}}\"\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "No Content",
+              "code": 204,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "be3c686d-f6d9-46cb-b3cf-b24354caf9c7",
+              "name": "Bad user request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "_",
+                    "tenant"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{version}}",
+                      "key": "version"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"value\": {\n        \"module_to\": \"{{module_to}}\",\n        \"module_from\": \"{{module_from}}\",\n        \"parameters\": \"{{parameters}}\"\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "f88bcdf2-634c-4096-ad37-b7e03c235da5",
+              "name": "Validation errors",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "_",
+                    "tenant"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{version}}",
+                      "key": "version"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"value\": {\n        \"module_to\": \"{{module_to}}\",\n        \"module_from\": \"{{module_from}}\",\n        \"parameters\": \"{{parameters}}\"\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+              "code": 422,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"strict\": false,\n  \"value\": {\n    \"errors\": [\n      {\n        \"message\": \"may not be null\",\n        \"type\": \"1\",\n        \"code\": \"-1\",\n        \"parameters\": [\n          {\n            \"key\": \"moduleTo\",\n            \"value\": \"null\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "6b4aeb1d-b4ca-4bb2-86d7-5d6248843cfc",
+              "name": "Internal error",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "_",
+                    "tenant"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{version}}",
+                      "key": "version"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"value\": {\n        \"module_to\": \"{{module_to}}\",\n        \"module_from\": \"{{module_from}}\",\n        \"parameters\": \"{{parameters}}\"\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test raml-postman-test using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for /_/tenant for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 201){\n    pm.test(\"Tenant job created\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Created\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(responseData[0], `id`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `id`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(pm.response.json(), `id`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `id`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenant` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenant`)){\n          if(pm.expect(_.get(responseData[0], `tenant`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenant`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenant` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenant`)){\n          if(pm.expect(_.get(pm.response.json(), `tenant`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenant`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes`, null)).to.equal(\"object\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes`, null)).to.equal(\"object\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes.module_from` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.module_from`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes.module_from`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes.module_from`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes.module_from` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.module_from`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.module_from`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes.module_from`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes.module_to` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.module_to`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes.module_to`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes.module_to`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes.module_to` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.module_to`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.module_to`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes.module_to`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes.purge` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.purge`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes.purge`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes.purge`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes.purge` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.purge`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.purge`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes.purge`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    }\n\n        if(Array.isArray(responseData)){\n          pm.test('Response has the `tenantAttributes.parameters` field',function(){\n            if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.parameters`)){\n              if(pm.expect(_.get(responseData[0], `tenantAttributes.parameters`)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `tenantAttributes.parameters`))).to.equal(true);\n              }\n            }\n\n          })\n        } else {\n          pm.test('Response has the `tenantAttributes.parameters` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.parameters`)){\n              if(pm.expect(_.get(pm.response.json(), `tenantAttributes.parameters`)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `tenantAttributes.parameters`))).to.equal(true);\n              }\n            }\n\n          })\n        }      \n          \n\n      pm.test(`Each object in the tenantAttributes.parameters field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.parameters`);\n          let parametersArray = _.get(pm.response.json(), `tenantAttributes.parameters`, \"\");\n          for (let parameters_it = 0; parameters_it < parametersArray.length; parameters_it++) {\n            let iterator = parameters_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'parametersArray' has 'key' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `tenantAttributes.parameters[${parameters_it}].key`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`tenantAttributes.parameters[${parameters_it}].key`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'tenantAttributes.parameters[${parameters_it}].key' has 'key' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.parameters[${parameters_it}].key`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`tenantAttributes.parameters[${parameters_it}].key`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'parametersArray' has 'value' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `tenantAttributes.parameters[${parameters_it}].value`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`tenantAttributes.parameters[${parameters_it}].value`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'tenantAttributes.parameters[${parameters_it}].value' has 'value' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.parameters[${parameters_it}].value`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`tenantAttributes.parameters[${parameters_it}].value`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n          }\n\n      })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `complete` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`complete`)){\n          if(pm.expect(_.get(responseData[0], `complete`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `complete`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `complete` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`complete`)){\n          if(pm.expect(_.get(pm.response.json(), `complete`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `complete`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `error` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`error`)){\n          if(pm.expect(_.get(responseData[0], `error`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `error`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `error` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`error`)){\n          if(pm.expect(_.get(pm.response.json(), `error`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `error`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n        if(Array.isArray(responseData)){\n          pm.test('Response has the `messages` field',function(){\n            if(pm.expect(responseData[0]).to.have.nested.property(`messages`)){\n              if(pm.expect(_.get(responseData[0], `messages`)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `messages`))).to.equal(true);\n              }\n            }\n\n          })\n        } else {\n          pm.test('Response has the `messages` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`messages`)){\n              if(pm.expect(_.get(pm.response.json(), `messages`)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `messages`))).to.equal(true);\n              }\n            }\n\n          })\n        }      \n          \n});\n}\n\nif (pm.response.code == 204){\n    pm.test(\"Job completed\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"No Content\");});\n}\n\nif (pm.response.code == 400){\n    pm.test(\"Bad user request\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Bad Request\");});\n}\n\nif (pm.response.code == 422){\n    pm.test(\"Validation errors\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Unprocessable Entity (WebDAV) (RFC 4918)\");\n        if(Array.isArray(responseData)){\n          pm.test('Response has the `errors` field',function(){\n            if(pm.expect(responseData[0]).to.have.nested.property(`errors`)){\n              if(pm.expect(_.get(responseData[0], `errors`)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `errors`))).to.equal(true);\n              }\n            }\n\n          })\n        } else {\n          pm.test('Response has the `errors` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`errors`)){\n              if(pm.expect(_.get(pm.response.json(), `errors`)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `errors`))).to.equal(true);\n              }\n            }\n\n          })\n        }      \n          \n\n      pm.test(`Each object in the errors field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`errors`);\n          let errorsArray = _.get(pm.response.json(), `errors`, \"\");\n          for (let errors_it = 0; errors_it < errorsArray.length; errors_it++) {\n            let iterator = errors_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'errorsArray' has 'message' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `errors[${errors_it}].message`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`errors[${errors_it}].message`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'errors[${errors_it}].message' has 'message' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `errors[${errors_it}].message`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`errors[${errors_it}].message`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'errorsArray' has 'type' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `errors[${errors_it}].type`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`errors[${errors_it}].type`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'errors[${errors_it}].type' has 'type' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `errors[${errors_it}].type`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`errors[${errors_it}].type`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'errorsArray' has 'code' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `errors[${errors_it}].code`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`errors[${errors_it}].code`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'errors[${errors_it}].code' has 'code' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `errors[${errors_it}].code`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`errors[${errors_it}].code`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'errorsArray' has 'parameters' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `errors[${errors_it}].parameters`)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `errors[${errors_it}].parameters`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'errorsArray' has 'parameters' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `errors[${errors_it}].parameters`)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `errors[${errors_it}].parameters`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n      pm.test(`Each object in the errors[${errors_it}].parameters field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`errors[${errors_it}].parameters`);\n          let parametersArray = _.get(pm.response.json(), `errors[${errors_it}].parameters`, \"\");\n          for (let parameters_it = 0; parameters_it < parametersArray.length; parameters_it++) {\n            let iterator = parameters_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'parametersArray' has 'key' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `errors[${errors_it}].parameters[${parameters_it}].key`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`errors[${errors_it}].parameters[${parameters_it}].key`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'errors[${errors_it}].parameters[${parameters_it}].key' has 'key' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `errors[${errors_it}].parameters[${parameters_it}].key`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`errors[${errors_it}].parameters[${parameters_it}].key`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'parametersArray' has 'value' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `errors[${errors_it}].parameters[${parameters_it}].value`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`errors[${errors_it}].parameters[${parameters_it}].value`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'errors[${errors_it}].parameters[${parameters_it}].value' has 'value' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `errors[${errors_it}].parameters[${parameters_it}].value`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`errors[${errors_it}].parameters[${parameters_it}].value`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n          }\n\n      })\n\n          }\n\n      })\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `total_records` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`total_records`)){\n                  if(pm.expect(_.get(responseData[0], `total_records`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `total_records`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `total_records` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`total_records`)){\n                if(pm.expect(_.get(responseData, `total_records`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `total_records`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n});\n}\n\nif (pm.response.code == 500){\n    pm.test(\"Internal error\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");});\n}\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "4f0471f8-051c-457a-a3cd-97456ccf715f",
+          "name": "{operation_id}",
+          "item": [
+            {
+              "id": "544bc8e4-7f6c-4003-8e0c-19f885bc9677",
+              "name": "Get tenant job",
+              "request": {
+                "name": "Get tenant job",
+                "description": {
+                  "content": "Get tenant job",
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "_",
+                    "tenant",
+                    ":operation_id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "disabled": false,
+                      "key": "wait",
+                      "value": "{{wait}}",
+                      "description": "wait until job change, but no longer than the wait time - in milliseconds. 0 means \"no wait\" and is behavior if omitted."
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{operation_id}}",
+                      "key": "operation_id",
+                      "description": "(Required) "
+                    },
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{version}}",
+                      "key": "version"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "af2caada-acb1-45f9-b3f1-f2d37ea8dbae",
+                  "name": "Tenant job returned OK",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "wait",
+                          "value": "{{wait}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"value\": {\n    \"tenant\": \"diku\",\n    \"tenantAttributes\": {\n      \"module_to\": \"mod-sample-1.3.1\",\n      \"module_from\": \"mod-sample-1.0.2\",\n      \"parameters\": [\n        {\n          \"key\": \"loadReference\",\n          \"value\": \"true\"\n        }\n      ]\n    },\n    \"complete\": true,\n    \"error\": \"SQL error\",\n    \"messages\": [\n      \"first error\",\n      \"second error\"\n    ]\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "ccac958d-9b74-4c2c-a165-03b18ca229a7",
+                  "name": "User error",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "wait",
+                          "value": "{{wait}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "ab89d529-21f5-4f83-a11e-86ce7de4dce2",
+                  "name": "Not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "wait",
+                          "value": "{{wait}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "b63aec91-8bd2-4a1f-afb5-c20a079df22a",
+                  "name": "Internal error",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "wait",
+                          "value": "{{wait}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Internal Server Error",
+                  "code": 500,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test raml-postman-test using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for /_/tenant/:operation_id?wait=0 for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"Tenant job returned OK\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"OK\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(responseData[0], `id`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `id`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(pm.response.json(), `id`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `id`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenant` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenant`)){\n          if(pm.expect(_.get(responseData[0], `tenant`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenant`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenant` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenant`)){\n          if(pm.expect(_.get(pm.response.json(), `tenant`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenant`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes`, null)).to.equal(\"object\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes`, null)).to.equal(\"object\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes.module_from` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.module_from`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes.module_from`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes.module_from`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes.module_from` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.module_from`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.module_from`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes.module_from`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes.module_to` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.module_to`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes.module_to`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes.module_to`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes.module_to` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.module_to`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.module_to`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes.module_to`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `tenantAttributes.purge` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.purge`)){\n          if(pm.expect(_.get(responseData[0], `tenantAttributes.purge`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `tenantAttributes.purge`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `tenantAttributes.purge` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.purge`)){\n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.purge`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `tenantAttributes.purge`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    }\n\n        if(Array.isArray(responseData)){\n          pm.test('Response has the `tenantAttributes.parameters` field',function(){\n            if(pm.expect(responseData[0]).to.have.nested.property(`tenantAttributes.parameters`)){\n              if(pm.expect(_.get(responseData[0], `tenantAttributes.parameters`)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `tenantAttributes.parameters`))).to.equal(true);\n              }\n            }\n\n          })\n        } else {\n          pm.test('Response has the `tenantAttributes.parameters` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.parameters`)){\n              if(pm.expect(_.get(pm.response.json(), `tenantAttributes.parameters`)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `tenantAttributes.parameters`))).to.equal(true);\n              }\n            }\n\n          })\n        }      \n          \n\n      pm.test(`Each object in the tenantAttributes.parameters field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`tenantAttributes.parameters`);\n          let parametersArray = _.get(pm.response.json(), `tenantAttributes.parameters`, \"\");\n          for (let parameters_it = 0; parameters_it < parametersArray.length; parameters_it++) {\n            let iterator = parameters_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'parametersArray' has 'key' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `tenantAttributes.parameters[${parameters_it}].key`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`tenantAttributes.parameters[${parameters_it}].key`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'tenantAttributes.parameters[${parameters_it}].key' has 'key' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.parameters[${parameters_it}].key`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`tenantAttributes.parameters[${parameters_it}].key`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'parametersArray' has 'value' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `tenantAttributes.parameters[${parameters_it}].value`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`tenantAttributes.parameters[${parameters_it}].value`, null)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'tenantAttributes.parameters[${parameters_it}].value' has 'value' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `tenantAttributes.parameters[${parameters_it}].value`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`tenantAttributes.parameters[${parameters_it}].value`, null)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n          }\n\n      })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `complete` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`complete`)){\n          if(pm.expect(_.get(responseData[0], `complete`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `complete`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `complete` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`complete`)){\n          if(pm.expect(_.get(pm.response.json(), `complete`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `complete`, null)).to.equal(\"boolean\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `error` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`error`)){\n          if(pm.expect(_.get(responseData[0], `error`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `error`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `error` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`error`)){\n          if(pm.expect(_.get(pm.response.json(), `error`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `error`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n        if(Array.isArray(responseData)){\n          pm.test('Response has the `messages` field',function(){\n            if(pm.expect(responseData[0]).to.have.nested.property(`messages`)){\n              if(pm.expect(_.get(responseData[0], `messages`)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `messages`))).to.equal(true);\n              }\n            }\n\n          })\n        } else {\n          pm.test('Response has the `messages` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`messages`)){\n              if(pm.expect(_.get(pm.response.json(), `messages`)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `messages`))).to.equal(true);\n              }\n            }\n\n          })\n        }      \n          \n});\n}\n\nif (pm.response.code == 400){\n    pm.test(\"User error\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Bad Request\");});\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Not found\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Not Found\");});\n}\n\nif (pm.response.code == 500){\n    pm.test(\"Internal error\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");});\n}\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "8075db39-8428-4615-b7e3-622070c5c3d1",
+              "name": "Delete job",
+              "request": {
+                "name": "Delete job",
+                "description": {
+                  "content": "Delete job",
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "_",
+                    "tenant",
+                    ":operation_id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{operation_id}}",
+                      "key": "operation_id",
+                      "description": "(Required) "
+                    },
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{version}}",
+                      "key": "version"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "DELETE",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "8a91febf-3d56-49e8-9660-6570bf34141d",
+                  "name": "Job deleted ok",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "No Content",
+                  "code": 204,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "c863f40a-a614-4369-a543-38385ae8827e",
+                  "name": "User error",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "21e5d095-7836-41b6-b040-de4b0c19e3b1",
+                  "name": "Not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "b6d58571-6a43-4bb3-8b32-8f9ba7382109",
+                  "name": "Internal error",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "_",
+                        "tenant",
+                        ":operation_id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{operation_id}}",
+                          "key": "operation_id",
+                          "description": "(Required) "
+                        },
+                        {
+                          "description": {
+                            "content": "",
+                            "type": "text/plain"
+                          },
+                          "type": "any",
+                          "value": "{{version}}",
+                          "key": "version"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "text/plain"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Internal Server Error",
+                  "code": 500,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test raml-postman-test using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for /_/tenant/:operation_id for http method type delete in postman framework\n\n*/\n\n// ********RoostGPT********\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 204){\n    pm.test(\"Job deleted ok\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"No Content\");});\n}\n\nif (pm.response.code == 400){\n    pm.test(\"User error\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Bad Request\");});\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Not found\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Not Found\");});\n}\n\nif (pm.response.code == 500){\n    pm.test(\"Internal error\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");});\n}\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "",
+      "key": "version"
+    },
+    {
+      "type": "string",
+      "value": "http://localhost:8081/{{version}}",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "fb19a929-95c4-4f0b-94c7-2ed657f79668",
+    "name": "Tenant API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

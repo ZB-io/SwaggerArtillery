@@ -1,0 +1,5 @@
+operation_id,version,statusCode,scenario
+"op1234","v1.0",204,"Job deleted ok"
+"op5678","v1.1",400,"User error"
+"op9101","v2.0",404,"Not found"
+"op1121","v2.1",500,"Internal error"
