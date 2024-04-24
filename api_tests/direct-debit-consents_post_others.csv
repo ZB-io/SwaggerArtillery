@@ -1,0 +1,11 @@
+permissions^|^expirationDate
+read,write^|^2022-07-30T06:45:00
+read^|^2023-01-01T00:00:00
+read,write,execute^|^2022-12-31T23:59:59
+^|^2022-11-30T12:34:56
+read,write^|^2021-02-29T00:00:00
+read,execute^|^2023-03-01T15:30:45
+write,execute^|^2022-08-31T18:30:00
+execute^|^2023-05-31T23:59:59
+read,write,execute^|^2021-12-31T00:00:00
+read,write^|^2022-10-31T10:30:45

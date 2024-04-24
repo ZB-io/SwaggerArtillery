@@ -1,0 +1,11 @@
+consentId^|^creationDate^|^status^|^statusUpdateDate^|^permissions^|^expirationDate^|^links.self^|^links.prev^|^links.next^|^x-fapi-interaction-id
+1234^|^2021-01-01T00:00:00^|^active^|^2021-01-02T00:00:00^|^read,write^|^2021-12-31T00:00:00^|^http://example.com/1234^|^http://example.com/1233^|^http://example.com/1235^|^abc123
+1235^|^2021-01-02T00:00:00^|^inactive^|^2021-01-03T00:00:00^|^read^|^2021-12-31T00:00:00^|^http://example.com/1235^|^http://example.com/1234^|^http://example.com/1236^|^abc124
+1236^|^2021-01-03T00:00:00^|^active^|^2021-01-04T00:00:00^|^write^|^2021-12-31T00:00:00^|^http://example.com/1236^|^http://example.com/1235^|^http://example.com/1237^|^abc125
+1237^|^2021-01-04T00:00:00^|^inactive^|^2021-01-05T00:00:00^|^read,write^|^2021-12-31T00:00:00^|^http://example.com/1237^|^http://example.com/1236^|^http://example.com/1238^|^abc126
+1238^|^2021-01-05T00:00:00^|^active^|^2021-01-06T00:00:00^|^read^|^2021-12-31T00:00:00^|^http://example.com/1238^|^http://example.com/1237^|^http://example.com/1239^|^abc127
+1239^|^2021-01-06T00:00:00^|^inactive^|^2021-01-07T00:00:00^|^write^|^2021-12-31T00:00:00^|^http://example.com/1239^|^http://example.com/1238^|^http://example.com/1240^|^abc128
+1240^|^2021-01-07T00:00:00^|^active^|^2021-01-08T00:00:00^|^read,write^|^2021-12-31T00:00:00^|^http://example.com/1240^|^http://example.com/1239^|^http://example.com/1241^|^abc129
+1241^|^2021-01-08T00:00:00^|^inactive^|^2021-01-09T00:00:00^|^read^|^2021-12-31T00:00:00^|^http://example.com/1241^|^http://example.com/1240^|^http://example.com/1242^|^abc130
+1242^|^2021-01-09T00:00:00^|^active^|^2021-01-10T00:00:00^|^write^|^2021-12-31T00:00:00^|^http://example.com/1242^|^http://example.com/1241^|^http://example.com/1243^|^abc131
+1243^|^2021-01-10T00:00:00^|^inactive^|^2021-01-11T00:00:00^|^read,write^|^2021-12-31T00:00:00^|^http://example.com/1243^|^http://example.com/1242^|^http://example.com/1244^|^abc132

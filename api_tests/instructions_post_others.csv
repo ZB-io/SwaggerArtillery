@@ -1,0 +1,11 @@
+merchantInstructionIdentification^|^mandateIdentification^|^debtorName^|^debtorAccount.bankCode^|^debtorAccount.accountIdentification^|^debtorAccount.currency^|^debtorAccount.accountSchemeName^|^debtorAccount.accountSubType^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType^|^creditorReference^|^instructedAmountCurrency^|^instructedAmount^|^remittanceInformation^|^smsLanguageCode
+MSI101^|^MID101^|^John Doe^|^DB001^|^AID001^|^USD^|^DAS001^|^DAT001^|^CB001^|^CAI001^|^USD^|^CAS001^|^CAT001^|^CR001^|^USD^|^1000^|^RemitInfo001^|^EN
+MSI102^|^MID102^|^Jane Doe^|^DB002^|^AID002^|^EUR^|^DAS002^|^DAT002^|^CB002^|^CAI002^|^EUR^|^CAS002^|^CAT002^|^CR002^|^EUR^|^2000^|^RemitInfo002^|^FR
+MSI103^|^MID103^|^Bob Smith^|^DB003^|^AID003^|^GBP^|^DAS003^|^DAT003^|^CB003^|^CAI003^|^GBP^|^CAS003^|^CAT003^|^CR003^|^GBP^|^3000^|^RemitInfo003^|^DE
+MSI104^|^MID104^|^Alice Johnson^|^DB004^|^AID004^|^JPY^|^DAS004^|^DAT004^|^CB004^|^CAI004^|^JPY^|^CAS004^|^CAT004^|^CR004^|^JPY^|^4000^|^RemitInfo004^|^JP
+MSI105^|^MID105^|^Charlie Brown^|^DB005^|^AID005^|^AUD^|^DAS005^|^DAT005^|^CB005^|^CAI005^|^AUD^|^CAS005^|^CAT005^|^CR005^|^AUD^|^5000^|^RemitInfo005^|^AU
+MSI106^|^MID106^|^David Wilson^|^DB006^|^AID006^|^CAD^|^DAS006^|^DAT006^|^CB006^|^CAI006^|^CAD^|^CAS006^|^CAT006^|^CR006^|^CAD^|^6000^|^RemitInfo006^|^CA
+MSI107^|^MID107^|^Emma Watson^|^DB007^|^AID007^|^CNY^|^DAS007^|^DAT007^|^CB007^|^CAI007^|^CNY^|^CAS007^|^CAT007^|^CR007^|^CNY^|^7000^|^RemitInfo007^|^CN
+MSI108^|^MID108^|^Frank Taylor^|^DB008^|^AID008^|^INR^|^DAS008^|^DAT008^|^CB008^|^CAI008^|^INR^|^CAS008^|^CAT008^|^CR008^|^INR^|^8000^|^RemitInfo008^|^IN
+MSI109^|^MID109^|^Grace Miller^|^DB009^|^AID009^|^BRL^|^DAS009^|^DAT009^|^CB009^|^CAI009^|^BRL^|^CAS009^|^CAT009^|^CR009^|^BRL^|^9000^|^RemitInfo009^|^BR
+MSI110^|^MID110^|^Henry Davis^|^DB010^|^AID010^|^ZAR^|^DAS010^|^DAT010^|^CB010^|^CAI010^|^ZAR^|^CAS010^|^CAT010^|^CR010^|^ZAR^|^10000^|^RemitInfo010^|^ZA

@@ -1,0 +1,11 @@
+mandateIdentification^|^otpIdentificationNumber^|^otpPassword^|^bankCode^|^accountIdentification^|^currency^|^accountSchemeName^|^accountSubType
+MD123^|^OTP456^|^pass789^|^BC101^|^AI202^|^USD^|^Scheme303^|^SubType404
+MD124^|^OTP457^|^pass790^|^BC102^|^AI203^|^EUR^|^Scheme304^|^SubType405
+MD125^|^OTP458^|^pass791^|^BC103^|^AI204^|^GBP^|^Scheme305^|^SubType406
+MD126^|^OTP459^|^pass792^|^BC104^|^AI205^|^JPY^|^Scheme306^|^SubType407
+MD127^|^OTP460^|^pass793^|^BC105^|^AI206^|^CAD^|^Scheme307^|^SubType408
+MD128^|^OTP461^|^pass794^|^BC106^|^AI207^|^AUD^|^Scheme308^|^SubType409
+MD129^|^OTP462^|^pass795^|^BC107^|^AI208^|^NZD^|^Scheme309^|^SubType410
+MD130^|^OTP463^|^pass796^|^BC108^|^AI209^|^CHF^|^Scheme310^|^SubType411
+MD131^|^OTP464^|^pass797^|^BC109^|^AI210^|^CNY^|^Scheme311^|^SubType412
+MD132^|^OTP465^|^pass798^|^BC110^|^AI211^|^INR^|^Scheme312^|^SubType413

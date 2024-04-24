@@ -1,0 +1,11 @@
+merchantRequestIdentification^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType
+MRID1234^|^BCODE7890^|^AID1234^|^USD^|^Scheme1^|^SubTypeA
+MRID1235^|^BCODE7891^|^AID1235^|^EUR^|^Scheme2^|^SubTypeB
+MRID1236^|^BCODE7892^|^AID1236^|^GBP^|^Scheme3^|^SubTypeC
+MRID1237^|^BCODE7893^|^AID1237^|^JPY^|^Scheme4^|^SubTypeD
+MRID1238^|^BCODE7894^|^AID1238^|^AUD^|^Scheme5^|^SubTypeE
+MRID1239^|^BCODE7895^|^AID1239^|^CAD^|^Scheme6^|^SubTypeF
+MRID1240^|^BCODE7896^|^AID1240^|^CHF^|^Scheme7^|^SubTypeG
+MRID1241^|^BCODE7897^|^AID1241^|^INR^|^Scheme8^|^SubTypeH
+MRID1242^|^BCODE7898^|^AID1242^|^CNY^|^Scheme9^|^SubTypeI
+MRID1243^|^BCODE7899^|^AID1243^|^SEK^|^Scheme10^|^SubTypeJ
