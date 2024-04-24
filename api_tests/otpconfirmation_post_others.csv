@@ -1,0 +1,11 @@
+mandateIdentification^|^otpIdentificationNumber^|^otpPassword^|^bankCode^|^accountIdentification^|^currency^|^accountSchemeName^|^accountSubType
+MAN1234^|^OTP5678^|^P@ssw0rd^|^BANK123^|^ACC789^|^USD^|^Savings^|^Joint
+MAN5678^|^OTP1234^|^P@ssw0rd1^|^BANK456^|^ACC123^|^EUR^|^Current^|^Individual
+MAN9012^|^OTP3456^|^P@ssw0rd2^|^BANK789^|^ACC456^|^GBP^|^Fixed Deposit^|^Business
+MAN3456^|^OTP7890^|^P@ssw0rd3^|^BANK012^|^ACC901^|^JPY^|^Recurring Deposit^|^NRI
+MAN7890^|^OTP0123^|^P@ssw0rd4^|^BANK345^|^ACC234^|^AUD^|^Term Deposit^|^Minor
+MAN0123^|^OTP4567^|^P@ssw0rd5^|^BANK678^|^ACC567^|^CAD^|^Demat^|^Senior Citizen
+MAN4567^|^OTP8901^|^P@ssw0rd6^|^BANK901^|^ACC890^|^NZD^|^NRO^|^Student
+MAN8901^|^OTP2345^|^P@ssw0rd7^|^BANK234^|^ACC345^|^SGD^|^NRE^|^HUF
+MAN2345^|^OTP6789^|^P@ssw0rd8^|^BANK567^|^ACC678^|^CHF^|^PPF^|^Trust
+MAN6789^|^OTP9012^|^P@ssw0rd9^|^BANK890^|^ACC012^|^CNY^|^RD^|^Society

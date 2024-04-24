@@ -1,0 +1,11 @@
+merchantInstructionIdentification^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType
+MI001^|^BC001^|^AC001^|^USD^|^Scheme1^|^SubType1
+MI002^|^BC002^|^AC002^|^EUR^|^Scheme2^|^SubType2
+MI003^|^BC003^|^AC003^|^GBP^|^Scheme3^|^SubType3
+MI004^|^BC004^|^AC004^|^JPY^|^Scheme4^|^SubType4
+MI005^|^BC005^|^AC005^|^CAD^|^Scheme5^|^SubType5
+MI006^|^BC006^|^AC006^|^AUD^|^Scheme6^|^SubType6
+MI007^|^BC007^|^AC007^|^CHF^|^Scheme7^|^SubType7
+MI008^|^BC008^|^AC008^|^CNY^|^Scheme8^|^SubType8
+MI009^|^BC009^|^AC009^|^SEK^|^Scheme9^|^SubType9
+MI010^|^BC010^|^AC010^|^NZD^|^Scheme10^|^SubType10
