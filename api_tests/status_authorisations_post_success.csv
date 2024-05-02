@@ -1,0 +1,11 @@
+merchantRequestIdentification^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType
+MRID1^|^BC1^|^AI1^|^USD^|^ASN1^|^AST1
+MRID2^|^BC2^|^AI2^|^EUR^|^ASN2^|^AST2
+MRID3^|^BC3^|^AI3^|^GBP^|^ASN3^|^AST3
+MRID4^|^BC4^|^AI4^|^JPY^|^ASN4^|^AST4
+MRID5^|^BC5^|^AI5^|^CAD^|^ASN5^|^AST5
+MRID6^|^BC6^|^AI6^|^AUD^|^ASN6^|^AST6
+MRID7^|^BC7^|^AI7^|^CHF^|^ASN7^|^AST7
+MRID8^|^BC8^|^AI8^|^CNY^|^ASN8^|^AST8
+MRID9^|^BC9^|^AI9^|^SEK^|^ASN9^|^AST9
+MRID10^|^BC10^|^AI10^|^NZD^|^ASN10^|^AST10

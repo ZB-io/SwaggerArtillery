@@ -1,0 +1,11 @@
+permissions^|^expirationDate
+read,write,delete^|^2022-03-01T12:34:56
+read,write^|^2022-03-02T13:45:56
+read,delete^|^2022-03-03T14:56:56
+write,delete^|^2022-03-04T15:23:45
+read,write,delete^|^2022-03-05T16:34:56
+write^|^2022-03-06T17:45:56
+delete^|^2022-03-07T18:56:56
+read,write^|^2022-03-08T19:23:45
+read,delete^|^2022-03-09T20:34:56
+read,write,delete^|^2022-03-10T21:45:56

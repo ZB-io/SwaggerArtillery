@@ -1,0 +1,11 @@
+reportType^|^reportingDate^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType
+Type1^|^2021-09-01^|^Bank1^|^123456789^|^USD^|^Scheme1^|^SubType1
+Type2^|^2021-09-02^|^Bank2^|^987654321^|^EUR^|^Scheme2^|^SubType2
+Type3^|^2021-09-03^|^Bank3^|^123456789^|^INR^|^Scheme3^|^SubType3
+Type4^|^2021-09-04^|^Bank4^|^987654321^|^GBP^|^Scheme4^|^SubType4
+Type5^|^2021-09-05^|^Bank5^|^123456789^|^JPY^|^Scheme5^|^SubType5
+Type6^|^2021-09-06^|^Bank6^|^987654321^|^AUD^|^Scheme6^|^SubType6
+Type7^|^2021-09-07^|^Bank7^|^123456789^|^CAD^|^Scheme7^|^SubType7
+Type8^|^2021-09-08^|^Bank8^|^987654321^|^CHF^|^Scheme8^|^SubType8
+Type9^|^2021-09-09^|^Bank9^|^123456789^|^CNY^|^Scheme9^|^SubType9
+Type10^|^2021-09-10^|^Bank10^|^987654321^|^SEK^|^Scheme10^|^SubType10

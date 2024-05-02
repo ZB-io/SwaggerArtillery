@@ -1,0 +1,11 @@
+mandateIdentification^|^otpIdentificationNumber^|^otpPassword^|^bankCode^|^accountIdentification^|^currency^|^accountSchemeName^|^accountSubType
+MAN1234^|^OTP5678^|^P@ssw0rd^|^BANK123^|^ACC789^|^USD^|^Savings^|^Joint
+MAN5678^|^OTP1234^|^P@ss123^|^BANK456^|^ACC123^|^EUR^|^Current^|^Individual
+MAN9012^|^OTP3456^|^P@ss345^|^BANK789^|^ACC456^|^GBP^|^Current^|^Joint
+MAN3456^|^OTP7890^|^P@ss567^|^BANK012^|^ACC901^|^JPY^|^Savings^|^Individual
+MAN7890^|^OTP0123^|^P@ss789^|^BANK345^|^ACC234^|^AUD^|^Savings^|^Joint
+MAN0123^|^OTP5678^|^P@ss901^|^BANK678^|^ACC567^|^CAD^|^Current^|^Individual
+MAN2345^|^OTP9012^|^P@ss234^|^BANK901^|^ACC890^|^CHF^|^Savings^|^Joint
+MAN6789^|^OTP3456^|^P@ss345^|^BANK234^|^ACC321^|^NZD^|^Current^|^Individual
+MAN9012^|^OTP7890^|^P@ss456^|^BANK567^|^ACC654^|^SGD^|^Savings^|^Joint
+MAN3456^|^OTP0123^|^P@ss567^|^BANK890^|^ACC987^|^HKD^|^Current^|^Individual

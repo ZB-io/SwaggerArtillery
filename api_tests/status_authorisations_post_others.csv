@@ -1,0 +1,11 @@
+merchantRequestIdentification^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType
+Req12345^|^BANK001^|^ACC12345^|^USD^|^Basic^|^Savings
+Req12346^|^BANK002^|^ACC12346^|^EUR^|^Premium^|^Checking
+Req12347^|^BANK003^|^ACC12347^|^GBP^|^Standard^|^Current
+Req12348^|^BANK004^|^ACC12348^|^JPY^|^Advanced^|^Savings
+Req12349^|^BANK005^|^ACC12349^|^AUD^|^Basic^|^Checking
+Req12350^|^BANK006^|^ACC12350^|^CAD^|^Premium^|^Current
+Req12351^|^BANK007^|^ACC12351^|^CHF^|^Standard^|^Savings
+Req12352^|^BANK008^|^ACC12352^|^NZD^|^Advanced^|^Checking
+Req12353^|^BANK009^|^ACC12353^|^ZAR^|^Basic^|^Current
+Req12354^|^BANK010^|^ACC12354^|^INR^|^Premium^|^Savings
