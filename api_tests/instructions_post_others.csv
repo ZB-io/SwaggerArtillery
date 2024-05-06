@@ -1,0 +1,11 @@
+merchantInstructionIdentification^|^mandateIdentification^|^debtorName^|^debtorAccount.bankCode^|^debtorAccount.accountIdentification^|^debtorAccount.currency^|^debtorAccount.accountSchemeName^|^debtorAccount.accountSubType^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType^|^creditorReference^|^instructedAmountCurrency^|^instructedAmount^|^remittanceInformation^|^smsLanguageCode
+MSI101^|^MID101^|^John Doe^|^DB001^|^AID001^|^USD^|^DAS001^|^DAT001^|^CB001^|^CAI001^|^USD^|^CAS001^|^CAT001^|^CR001^|^USD^|^1000^|^Remit001^|^EN
+MSI102^|^MID102^|^Jane Doe^|^DB002^|^AID002^|^EUR^|^DAS002^|^DAT002^|^CB002^|^CAI002^|^EUR^|^CAS002^|^CAT002^|^CR002^|^EUR^|^2000^|^Remit002^|^FR
+MSI103^|^MID103^|^Sam Smith^|^DB003^|^AID003^|^GBP^|^DAS003^|^DAT003^|^CB003^|^CAI003^|^GBP^|^CAS003^|^CAT003^|^CR003^|^GBP^|^3000^|^Remit003^|^EN
+MSI104^|^MID104^|^Emma Brown^|^DB004^|^AID004^|^JPY^|^DAS004^|^DAT004^|^CB004^|^CAI004^|^JPY^|^CAS004^|^CAT004^|^CR004^|^JPY^|^4000^|^Remit004^|^JP
+MSI105^|^MID105^|^Oliver Taylor^|^DB005^|^AID005^|^CAD^|^DAS005^|^DAT005^|^CB005^|^CAI005^|^CAD^|^CAS005^|^CAT005^|^CR005^|^CAD^|^5000^|^Remit005^|^EN
+MSI106^|^MID106^|^Sophia Wilson^|^DB006^|^AID006^|^AUD^|^DAS006^|^DAT006^|^CB006^|^CAI006^|^AUD^|^CAS006^|^CAT006^|^CR006^|^AUD^|^6000^|^Remit006^|^EN
+MSI107^|^MID107^|^Noah Johnson^|^DB007^|^AID007^|^CHF^|^DAS007^|^DAT007^|^CB007^|^CAI007^|^CHF^|^CAS007^|^CAT007^|^CR007^|^CHF^|^7000^|^Remit007^|^DE
+MSI108^|^MID108^|^Ava Thomas^|^DB008^|^AID008^|^CNY^|^DAS008^|^DAT008^|^CB008^|^CAI008^|^CNY^|^CAS008^|^CAT008^|^CR008^|^CNY^|^8000^|^Remit008^|^CN
+MSI109^|^MID109^|^Liam Roberts^|^DB009^|^AID009^|^INR^|^DAS009^|^DAT009^|^CB009^|^CAI009^|^INR^|^CAS009^|^CAT009^|^CR009^|^INR^|^9000^|^Remit009^|^EN
+MSI110^|^MID110^|^Isabella Walker^|^DB010^|^AID010^|^BRL^|^DAS010^|^DAT010^|^CB010^|^CAI010^|^BRL^|^CAS010^|^CAT010^|^CR010^|^BRL^|^10000^|^Remit010^|^PT

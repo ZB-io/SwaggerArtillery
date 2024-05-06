@@ -1,0 +1,11 @@
+merchantRequestIdentification^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType
+123456789^|^HSBC^|^A1B2C3^|^USD^|^Savings^|^SubSavings
+987654321^|^Barclays^|^Z9Y8X7^|^EUR^|^Current^|^SubCurrent
+1122334455^|^Citibank^|^P6O5I4^|^GBP^|^Savings^|^SubSavings
+2233445566^|^DBS^|^L3K2J1^|^INR^|^Current^|^SubCurrent
+3344556677^|^OCBC^|^W6E5R4^|^SGD^|^Savings^|^SubSavings
+4455667788^|^Standard Chartered^|^T9G8F7^|^USD^|^Current^|^SubCurrent
+5566778899^|^HSBC^|^Y2X1Z3^|^EUR^|^Savings^|^SubSavings
+6677889900^|^Barclays^|^R5F4G6^|^GBP^|^Current^|^SubCurrent
+7788990011^|^Citibank^|^U8H7J9^|^INR^|^Savings^|^SubSavings
+8899001122^|^DBS^|^I1J2K4^|^SGD^|^Current^|^SubCurrent
