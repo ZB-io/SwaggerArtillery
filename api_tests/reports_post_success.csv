@@ -1,0 +1,11 @@
+reportType^|^reportingDate^|^creditorAccountBankCode^|^creditorAccountAccountIdentification^|^creditorAccountCurrency^|^creditorAccountAccountSchemeName^|^creditorAccountAccountSubType
+Standard^|^2022-01-01^|^BANK001^|^ACC001^|^USD^|^Scheme1^|^SubType1
+Premium^|^2022-01-02^|^BANK002^|^ACC002^|^EUR^|^Scheme2^|^SubType2
+Standard^|^2022-01-03^|^BANK003^|^ACC003^|^GBP^|^Scheme3^|^SubType3
+Premium^|^2022-01-04^|^BANK004^|^ACC004^|^JPY^|^Scheme4^|^SubType4
+Standard^|^2022-01-05^|^BANK005^|^ACC005^|^AUD^|^Scheme5^|^SubType5
+Premium^|^2022-01-06^|^BANK006^|^ACC006^|^CAD^|^Scheme6^|^SubType6
+Standard^|^2022-01-07^|^BANK007^|^ACC007^|^CHF^|^Scheme7^|^SubType7
+Premium^|^2022-01-08^|^BANK008^|^ACC008^|^CNY^|^Scheme8^|^SubType8
+Standard^|^2022-01-09^|^BANK009^|^ACC009^|^SEK^|^Scheme9^|^SubType9
+Premium^|^2022-01-10^|^BANK010^|^ACC010^|^NZD^|^Scheme10^|^SubType10

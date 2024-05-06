@@ -1,0 +1,11 @@
+mandateIdentification^|^otpIdentificationNumber^|^otpPassword^|^bankCode^|^accountIdentification^|^currency^|^accountSchemeName^|^accountSubType
+MAN1234^|^OTP5678^|^P@ssw0rd^|^BANK123^|^ACC789^|^USD^|^Savings^|^Joint
+MAN5678^|^OTP1234^|^P@ssw0rd1^|^BANK456^|^ACC123^|^EUR^|^Current^|^Individual
+MAN9012^|^OTP3456^|^P@ssw0rd2^|^BANK789^|^ACC456^|^GBP^|^Fixed^|^Business
+MAN3456^|^OTP7890^|^P@ssw0rd3^|^BANK012^|^ACC901^|^JPY^|^Demat^|^NRI
+MAN7890^|^OTP9012^|^P@ssw0rd4^|^BANK345^|^ACC234^|^INR^|^Recurring^|^Minor
+MAN2345^|^OTP5678^|^P@ssw0rd5^|^BANK678^|^ACC567^|^USD^|^Sweep-in^|^Senior Citizen
+MAN6789^|^OTP2345^|^P@ssw0rd6^|^BANK901^|^ACC890^|^EUR^|^Term^|^Salary
+MAN0123^|^OTP6789^|^P@ssw0rd7^|^BANK234^|^ACC345^|^GBP^|^NRO^|^Student
+MAN4567^|^OTP0123^|^P@ssw0rd8^|^BANK567^|^ACC678^|^JPY^|^NRE^|^Pension
+MAN8901^|^OTP4567^|^P@ssw0rd9^|^BANK890^|^ACC012^|^INR^|^Flexi^|^Women's
