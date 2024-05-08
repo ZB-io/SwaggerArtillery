@@ -1,0 +1,11 @@
+merchantRequestIdentification^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType
+123456789^|^BANK01^|^ACC12345^|^USD^|^SCHEME1^|^SUBTYPE1
+987654321^|^BANK02^|^ACC67890^|^EUR^|^SCHEME2^|^SUBTYPE2
+123abc456^|^BANK03^|^ACC11223^|^GBP^|^SCHEME3^|^SUBTYPE3
+abc123def^|^BANK04^|^ACC44556^|^JPY^|^SCHEME4^|^SUBTYPE4
+456def789^|^BANK05^|^ACC77889^|^AUD^|^SCHEME5^|^SUBTYPE5
+def456ghi^|^BANK06^|^ACC99001^|^CAD^|^SCHEME6^|^SUBTYPE6
+789ghi123^|^BANK07^|^ACC22334^|^INR^|^SCHEME7^|^SUBTYPE7
+ghi789jkl^|^BANK08^|^ACC55667^|^CNY^|^SCHEME8^|^SUBTYPE8
+123jkl456^|^BANK09^|^ACC88990^|^BRL^|^SCHEME9^|^SUBTYPE9
+jkl123mno^|^BANK10^|^ACC00112^|^ZAR^|^SCHEME10^|^SUBTYPE10

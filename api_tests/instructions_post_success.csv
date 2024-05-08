@@ -1,0 +1,11 @@
+merchantInstructionIdentification^|^mandateIdentification^|^debtorName^|^debtorAccount.bankCode^|^debtorAccount.accountIdentification^|^debtorAccount.currency^|^debtorAccount.accountSchemeName^|^debtorAccount.accountSubType^|^creditorAccount.bankCode^|^creditorAccount.accountIdentification^|^creditorAccount.currency^|^creditorAccount.accountSchemeName^|^creditorAccount.accountSubType^|^creditorReference^|^instructedAmountCurrency^|^instructedAmount^|^remittanceInformation^|^smsLanguageCode
+MI001^|^MID001^|^John Doe^|^BC001^|^AI001^|^USD^|^ASN001^|^AST001^|^BC002^|^AI002^|^USD^|^ASN002^|^AST002^|^CR001^|^USD^|^1000^|^RI001^|^EN
+MI002^|^MID002^|^Jane Doe^|^BC003^|^AI003^|^EUR^|^ASN003^|^AST003^|^BC004^|^AI004^|^EUR^|^ASN004^|^AST004^|^CR002^|^EUR^|^2000^|^RI002^|^EN
+MI003^|^MID003^|^Jim Doe^|^BC005^|^AI005^|^GBP^|^ASN005^|^AST005^|^BC006^|^AI006^|^GBP^|^ASN006^|^AST006^|^CR003^|^GBP^|^3000^|^RI003^|^EN
+MI004^|^MID004^|^Jill Doe^|^BC007^|^AI007^|^JPY^|^ASN007^|^AST007^|^BC008^|^AI008^|^JPY^|^ASN008^|^AST008^|^CR004^|^JPY^|^4000^|^RI004^|^EN
+MI005^|^MID005^|^Jack Doe^|^BC009^|^AI009^|^AUD^|^ASN009^|^AST009^|^BC010^|^AI010^|^AUD^|^ASN010^|^AST010^|^CR005^|^AUD^|^5000^|^RI005^|^EN
+MI006^|^MID006^|^Jerry Doe^|^BC011^|^AI011^|^CAD^|^ASN011^|^AST011^|^BC012^|^AI012^|^CAD^|^ASN012^|^AST012^|^CR006^|^CAD^|^6000^|^RI006^|^EN
+MI007^|^MID007^|^Julia Doe^|^BC013^|^AI013^|^CHF^|^ASN013^|^AST013^|^BC014^|^AI014^|^CHF^|^ASN014^|^AST014^|^CR007^|^CHF^|^7000^|^RI007^|^EN
+MI008^|^MID008^|^Jasmine Doe^|^BC015^|^AI015^|^CNY^|^ASN015^|^AST015^|^BC016^|^AI016^|^CNY^|^ASN016^|^AST016^|^CR008^|^CNY^|^8000^|^RI008^|^EN
+MI009^|^MID009^|^Jared Doe^|^BC017^|^AI017^|^SEK^|^ASN017^|^AST017^|^BC018^|^AI018^|^SEK^|^ASN018^|^AST018^|^CR009^|^SEK^|^9000^|^RI009^|^EN
+MI010^|^MID010^|^Jenny Doe^|^BC019^|^AI019^|^NZD^|^ASN019^|^AST019^|^BC020^|^AI020^|^NZD^|^ASN020^|^AST020^|^CR010^|^NZD^|^10000^|^RI010^|^EN
