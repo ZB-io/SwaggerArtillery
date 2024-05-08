@@ -1,0 +1,11 @@
+mandateIdentification^|^otpIdentificationNumber^|^otpPassword^|^bankCode^|^accountIdentification^|^currency^|^accountSchemeName^|^accountSubType
+MD123456^|^OTP789012^|^Pass1234^|^BK001^|^ACC654321^|^USD^|^Basic^|^Savings
+MD123457^|^OTP789013^|^Pass1235^|^BK002^|^ACC654322^|^GBP^|^Premium^|^Checking
+MD123458^|^OTP789014^|^Pass1236^|^BK003^|^ACC654323^|^INR^|^Advanced^|^Current
+MD123459^|^OTP789015^|^Pass1237^|^BK004^|^ACC654324^|^EUR^|^Basic^|^Savings
+MD123460^|^OTP789016^|^Pass1238^|^BK005^|^ACC654325^|^AUD^|^Premium^|^Checking
+MD123461^|^OTP789017^|^Pass1239^|^BK006^|^ACC654326^|^JPY^|^Advanced^|^Current
+MD123462^|^OTP789018^|^Pass1240^|^BK007^|^ACC654327^|^CAD^|^Basic^|^Savings
+MD123463^|^OTP789019^|^Pass1241^|^BK008^|^ACC654328^|^CNY^|^Premium^|^Checking
+MD123464^|^OTP789020^|^Pass1242^|^BK009^|^ACC654329^|^BRL^|^Advanced^|^Current
+MD123465^|^OTP789021^|^Pass1243^|^BK010^|^ACC654330^|^ZAR^|^Basic^|^Savings

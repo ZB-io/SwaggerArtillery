@@ -1,0 +1,11 @@
+data^|^data.permissions^|^data.expirationDate
+{user1}^|^read,write^|^2022-12-31T23:59:59
+{user2}^|^read^|^2023-01-31T12:30:00
+{user3}^|^write^|^2022-11-30T15:45:30
+{user4}^|^read,write^|^2022-10-31T10:15:45
+{user5}^|^read^|^2023-02-28T18:30:15
+{user6}^|^write^|^2022-09-30T20:00:00
+{user7}^|^read,write^|^2023-03-31T21:15:30
+{user8}^|^read^|^2022-08-31T22:30:45
+{user9}^|^write^|^2023-04-30T23:45:15
+{user10}^|^read,write^|^2022-07-31T11:30:00

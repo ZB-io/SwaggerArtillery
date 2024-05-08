@@ -1,0 +1,11 @@
+consentId^|^creationDate^|^status^|^statusUpdateDate^|^permissions^|^expirationDate^|^self^|^prev^|^next^|^x-fapi-interaction-id
+abcd1234^|^2021-12-01T12:34:56^|^active^|^2021-12-01T12:34:56^|^read,write^|^2022-12-01T12:34:56^|^http://example.com/self1^|^http://example.com/prev1^|^http://example.com/next1^|^interact-123
+efgh5678^|^2021-12-02T12:34:56^|^inactive^|^2021-12-02T12:34:56^|^read^|^2022-12-02T12:34:56^|^http://example.com/self2^|^http://example.com/prev2^|^http://example.com/next2^|^interact-456
+ijkl9012^|^2021-12-03T12:34:56^|^active^|^2021-12-03T12:34:56^|^write^|^2022-12-03T12:34:56^|^http://example.com/self3^|^http://example.com/prev3^|^http://example.com/next3^|^interact-789
+mnop3456^|^2021-12-04T12:34:56^|^inactive^|^2021-12-04T12:34:56^|^read,write^|^2022-12-04T12:34:56^|^http://example.com/self4^|^http://example.com/prev4^|^http://example.com/next4^|^interact-012
+qrst7890^|^2021-12-05T12:34:56^|^active^|^2021-12-05T12:34:56^|^read^|^2022-12-05T12:34:56^|^http://example.com/self5^|^http://example.com/prev5^|^http://example.com/next5^|^interact-345
+uvwx1234^|^2021-12-06T12:34:56^|^inactive^|^2021-12-06T12:34:56^|^write^|^2022-12-06T12:34:56^|^http://example.com/self6^|^http://example.com/prev6^|^http://example.com/next6^|^interact-678
+yzab5678^|^2021-12-07T12:34:56^|^active^|^2021-12-07T12:34:56^|^read,write^|^2022-12-07T12:34:56^|^http://example.com/self7^|^http://example.com/prev7^|^http://example.com/next7^|^interact-901
+cdef9012^|^2021-12-08T12:34:56^|^inactive^|^2021-12-08T12:34:56^|^read^|^2022-12-08T12:34:56^|^http://example.com/self8^|^http://example.com/prev8^|^http://example.com/next8^|^interact-234
+ghij3456^|^2021-12-09T12:34:56^|^active^|^2021-12-09T12:34:56^|^write^|^2022-12-09T12:34:56^|^http://example.com/self9^|^http://example.com/prev9^|^http://example.com/next9^|^interact-567
+klmn7890^|^2021-12-10T12:34:56^|^inactive^|^2021-12-10T12:34:56^|^read,write^|^2022-12-10T12:34:56^|^http://example.com/self10^|^http://example.com/prev10^|^http://example.com/next10^|^interact-890
